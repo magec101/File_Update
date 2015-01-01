@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "100 BOB MANGALORE\n101 TOM BANGALORE\n103 MAC GHAZIABAD",
+                    "output": "100 BOB MANGALORE\n101 TOM BENGALURU\n103 MAC GHAZIABAD",
+                    "type": "STDIN"
+                },
+                "score": "",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "undefined",
+        "system": "100"
+    },
+    "lastSaved": "20150101 150917"
+}

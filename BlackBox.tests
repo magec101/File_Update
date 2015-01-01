@@ -1,0 +1,9 @@
+[
+    {
+        "1": {
+            "input": "100 BOB MANGALORE\n101 TOM BANGALORE\n103 MAC GHAZIABAD",
+            "output": "100 BOB MANGALORE\n101 TOM BENGALURU\n103 MAC GHAZIABAD",
+            "type": "STDIN"
+        }
+    }
+]
